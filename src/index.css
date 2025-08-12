@@ -2,6 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
+/* nicer defaults */
+:root {
+  --app-bg: #f8fafc;
+}
 body {
-  @apply antialiased bg-green-50;
+  @apply antialiased;
+  background: linear-gradient(180deg, #f0f9f4 0%, #ffffff 100%);
 }
